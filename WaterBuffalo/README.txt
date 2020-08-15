@@ -19,7 +19,7 @@ The PCAs were calculated using PLINK v1.90b4 64-bit and the following parameters
   The resulting .eigenvec file generated from PLINK was used in PCA_script.R to generate the PCA plot in Supplementary Figure 2.
 
 ## Variant Calling and Filtration
-The tools and parameters used to perform this methodology has been presented in a tabular format in Variant_Calling_and_filtering_commands.docx
+The tools and parameters used to perform this methodology has been presented in a tabular format in Variant_Calling_and_filtering_commands.docx.
 
 ##TREEMIX
 For Treemix analysis, at first, the filtered biallelic Single Nucleotide Variants (SNVs) were processed using PLINK v1.90b4 64-bit and following parameters:
@@ -48,7 +48,7 @@ For Treemix analysis, at first, the filtered biallelic Single Nucleotide Variant
   
 A breed-stratified allele frequency report was obtained for 79 individuals using the above codes.
 
-The breed-stratified allele frequency report was converted to an input file suitable for the TreeMix program using the python script ‘plink2treemix.py’ (https://bitbucket.org/nygcresearch/treemix/downloads/)
+The breed-stratified allele frequency report was converted to an input file suitable for the TreeMix program using the python script ‘plink2treemix.py’ (https://bitbucket.org/nygcresearch/treemix/downloads/).
 
 Finally 'treemix_graphmaker.R' was used to create Figure 1B.
 
